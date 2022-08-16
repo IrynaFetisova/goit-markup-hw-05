@@ -90,14 +90,12 @@ ul,p, h2 {
     display: block;
     padding-top: 32px;
     padding-bottom: 32px;
-
     color: var(--title-tex-color);
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
     text-decoration: none;
-    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .site-nav .link:hover, 
@@ -125,27 +123,26 @@ ul,p, h2 {
     line-height: 1.14;
     letter-spacing: 0.02em;
     text-decoration: none;
-    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .auth-nav .link:hover,
 .auth-nav .link:focus {
     color: var(--accent-color);
     fill: currentColor;
-    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
 .item .phone {
     vertical-align: middle;
     fill: currentColor;
-    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .item .phone:hover,
 .item .phone:focus {
     fill: currentColor;
-    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* hero */
@@ -221,14 +218,13 @@ ul,p, h2 {
     background-color: var(--primary-bg-color);
     border: 1px solid rgba(0, 0, 0, 0.1);;
     transform: scale(1);
-    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    
 }
 
 .btm-close:hover,
 .btm-close:focus {
     cursor: pointer;
     border: 1px solid rgba(0, 0, 0, 0.1);
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
@@ -260,8 +256,9 @@ ul,p, h2 {
     justify-content: center;
     align-items: center;
     fill: var(--primary-tex-color);
-    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 
 .icon-maill:focus,
 .icon-maill:hover {
@@ -362,7 +359,6 @@ ul,p, h2 {
     justify-content: center;
     align-items: center;
     text-align: center;
-    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
@@ -375,7 +371,6 @@ ul,p, h2 {
     justify-content: center;
     text-align: center;
     align-items: center;
-    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .persoc:nth-child(4n) {
@@ -387,6 +382,7 @@ ul,p, h2 {
     fill: var(--primary-bg-color);
     border-radius: 50%;
     background-color: var(--accent-color);
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .persoc-link {
@@ -398,12 +394,14 @@ ul,p, h2 {
     fill: var(--primary-bg-color);
     border-radius: 50%;
     background-color: var(--accent-color);
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .personal-nav:focus > a > svg {
     fill: var(--primary-bg-color);
     border-radius: 50%;
     background-color: var(--accent-color);
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .icon-social {
@@ -428,7 +426,7 @@ ul,p, h2 {
     border-radius: 4px;
     align-items: center;
     justify-content: center;
-    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
 }
 
 .partners-nav:nth-last-child(6n) {
@@ -439,17 +437,16 @@ ul,p, h2 {
 .partners-nav:focus > a {
     fill: var(--accent-color);
     border: var(--accent-color) 1px solid;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.icon-partners {
-    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
 .icon-partners:hover,
 .icon-partners:focus {
     fill: var(--accent-color);
     border: var(--accent-color) 1px solid;
     border-radius: 4px;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
@@ -507,7 +504,6 @@ ul,p, h2 {
     margin-right: auto;
     column-gap: 8px;
     margin-bottom: 50px;
-    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .button.secondary{
@@ -519,7 +515,6 @@ ul,p, h2 {
     border: 1px solid transparent;
     border-radius: 4px;
     cursor: pointer;
-    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
@@ -544,6 +539,7 @@ ul,p, h2 {
     color: var(--primary-bg-color);
     background-color: var(--accent-color);
     box-shadow: 0px 3px 1px rgb(0 0 0 / 10%), 0px 1px 2px rgb(0 0 0 / 8%), 0px 2px 2px rgb(0 0 0 / 12%);
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* footer */
@@ -554,7 +550,6 @@ ul,p, h2 {
     line-height: 1.71;
     color: rgba(255, 255, 255, 0.6);
     text-decoration: none;
-    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .addres-nav .add-link {
@@ -563,17 +558,18 @@ ul,p, h2 {
     line-height: 1.71;
     color: var(--primary-bg-color);
     text-decoration: none;
-    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .addres-nav .link:hover,
 .addres-nav .link:focus {
     color: var(--accent-color);
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .addres-nav .add-link:hover,
 .addres-nav .add-link:focus {
     color: var(--accent-color);
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
@@ -640,14 +636,10 @@ ul,p, h2 {
     transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.socicon {
-    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-
 .socicon:focus,
 .socicon:hover {
     background-color: var(--accent-color);
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* portfolio */
@@ -700,12 +692,13 @@ ul,p, h2 {
     transform: translateY(300px);
     transition-property: transform;
     transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); 
 }
 
 .cards:hover .product-overlay{
     transform: translateY(0);
     opacity: 1;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .product {
@@ -726,7 +719,6 @@ ul,p, h2 {
 
 .work-list .cards:nth-child(3n) {
     margin-right: 0;
-    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .work-list .cards:nth-last-child(-n + 3) {
@@ -736,6 +728,7 @@ ul,p, h2 {
 .work-list .cards:hover,
 .work-list .cards:focus {
     box-shadow: 0px 1px 1px rgb(0 0 0 / 12%), 0px 4px 4px rgb(0 0 0 / 6%), 1px 4px 6px rgb(0 0 0 / 16%);
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .work-list .title {
     color: var(--title-tex-color);
